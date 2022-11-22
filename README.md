@@ -30,7 +30,7 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 
 ## How to start this course
 
-1. Above these instructions, right-click __Use this template__ and open the link in a new tab.
+1. Above these instructions, right-click **Use this template** and open the link in a new tab.
    ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
 2. In the new tab, follow the prompts to create a new repository.
    - For owner, choose your personal account or an organization to host the repository.
@@ -70,7 +70,7 @@ First, let's add a workflow to lint our Markdown files in this repository.
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab
 1. Go to the **Actions tab**.
-1. Click _**New workflow**.
+1. Click **New workflow**.
 1. Search for "Simple workflow" and click **Configure**.
 1. Name your workflow `ci.yml`.
 1. Update the workflow to remove all steps other than the "checkout" step.
@@ -106,13 +106,13 @@ When a GitHub Actions workflow is running, you should see some checks in progres
 
 <img alt="checks in progress in a merge box" src=https://user-images.githubusercontent.com/16547949/66080348-ecc5f580-e533-11e9-909e-c213b08790eb.png width=400 />
 
-You can follow along as GitHub Actions runs your job by going to the __Actions__ tab or by clicking on "Details" in the merge box below.
+You can follow along as GitHub Actions runs your job by going to the **Actions** tab or by clicking on "Details" in the merge box below.
 
 When the tests finish, you'll see a red X :x: or a green check mark :heavy_check_mark: in the merge box. At that point, you'll have access to logs for the build job and its associated steps.
 
 <!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with * instead of _ for the error case. -->
 
-*By looking at the logs, can you identify which tests failed?* To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
+**By looking at the logs, can you identify which tests failed?** To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
 
 <img alt="screenshot of a sample build log with the names of the tests blurred out" src=https://user-images.githubusercontent.com/16547949/65922013-e740a200-e3b1-11e9-8151-faf52c30201e.png width=400 />
 
